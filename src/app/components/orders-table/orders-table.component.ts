@@ -108,14 +108,5 @@ export class OrdersTableComponent implements OnInit {
     this.ordersFiltered.emit(this.filteredOrders);
   }
   
-  sort(column: string): void {
-    if (this.sortColumn === column) {
-      this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
-    } else {
-      this.sortColumn = column;
-      this.sortDirection = 'asc';
-    }
-    
-    this.applyFilters();
-  }
+ 
 }
