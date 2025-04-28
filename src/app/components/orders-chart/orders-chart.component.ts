@@ -81,9 +81,9 @@ export class OrdersChartComponent implements OnInit, OnChanges {
       hole: 0.4,
       marker: {
         colors: [
-          '#10B981', // Delivered - Green
-          '#FBBF24', // Pending - Yellow
-          '#EF4444'  // Cancelled - Red
+          '#10B981', // Delivered -- Green
+          '#FBBF24', // Pending -- Yellow
+          '#EF4444'  // Cancelled -- Red
         ]
       },
       textinfo: 'label+percent',
