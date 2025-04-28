@@ -90,7 +90,7 @@ export class OrdersTableComponent implements OnInit {
       result = result.filter(order => order.status === this.selectedStatus);
     }
     
-    // Apply sorting
+    // Apply sorting for the table
     result.sort((a, b) => {
       const aValue = a[this.sortColumn as keyof Order];
       const bValue = b[this.sortColumn as keyof Order];
