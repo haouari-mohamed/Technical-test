@@ -106,7 +106,7 @@ export class OrdersChartComponent implements OnInit, OnChanges {
     const colors = labels.map(status => {
       if (status === 'Delivered') return '#10B981';
       if (status === 'Pending') return '#FBBF24';
-      return '#EF4444'; // Cancelled
+      return '#EF4444'; // Cancelled color
     });
     
     const data = [{
